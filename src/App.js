@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Grid from './Grid.js';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
         <header className="header">
           <h1 className="header-title">Conway's Game Of Life</h1>
         </header>
+        <Grid />
       </div>
     );
   }
