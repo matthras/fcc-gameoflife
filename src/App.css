@@ -1,28 +1,65 @@
-.App {
-  text-align: center;
+body {
+  background: black;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+button {
+  margin: 6px;
+  border: 1px solid #cc99ff;
+  color: #cc99ff;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+button:hover, button:active, button:focus {
+  border: 1px solid #6600cc;
+  color: #6600cc;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 4.5em;
+  margin: 6px 10px;
+}
+
+hr {
+  margin: 1em 0;
+  border-top: 3px double #FFF;
+}
+
+h1 {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+h2, h3 {
+  color: #cc99ff;
 }
 
-.App-intro {
-  font-size: large;
+svg {
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.rect0 {
+  fill: black;
+  stroke: #6600cc;
+  stroke-width: 1px;
+}
+
+.rect1 {
+  fill: url(#fillGradient);
+  stroke: #6600cc;
+  stroke-width:1px;
+}
+
+.container {
+  width: 90%;
+  max-width: 2160px;
+  margin: 0 2.5%;
+}
+.coverBox {
+  width: 100%;
+  padding: 2em 2.5%;
+  border-style: double;
+  border-color: white;
+}
+.divCenter {
+  text-align: center;
+  color: #cc99ff;
 }
